@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#wpm-business-menu .wpmbm-title {
+  margin: 0;
+	font-size: 25px;
+}
+#wpm-business-menu .wpmbm-item-container {
+  float: left;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid;
+}
+#wpm-business-menu .wpmbm-item-container:last-child {
+  margin-bottom: 0;
+}
+#wpm-business-menu {
+  width: 100%;
+  float: left;
+	padding: 20px;
+}
+#wpm-business-menu .wpmbm-item-title {
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+}
+#wpm-business-menu .wpmbm-item-price {
+  float: right;
+font-size: 16px;
+}
+#wpm-business-menu .wpmbm-item-desc {
+  margin: 0;
+  font-size: 16px;
+}

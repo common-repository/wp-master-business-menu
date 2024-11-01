@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.toplevel_page_wpm_business_menu .wp-menu-image img {
+	width: 16px;
+}
+div#wpm-business-menu-info-container {
+	margin-bottom: 15px;
+	display: block;
+}
+.wpm-business-menu-item:hover {
+	background-color: lightgrey;
+}
+div#wpmb-add-menu-item {
+	width: 115px;
+	padding: 5px 10px;
+	background-color: lime;
+	cursor: pointer;
+}
+div#wpmb-add-menu-item:hover {
+	background-color: #afefaf;
+}
+div#wpmb-add-menu-item img {
+	width: 10px;
+	float: right;
+	display: inline;
+	padding: 5px 0;
+}
+.wpm-business-menu-item {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.col-wpmb-item-handle {
+	display: inline-block;
+	width: 15%;
+	float: left;
+	max-width: 50px;
+	cursor:n-resize;
+}
+.col-wpmb-item-data {
+	display: inline-block;
+	width: 75%;
+	max-width: 650px;
+}
+.col-wpmb-item-control {
+	width: 10%;
+	display: inline-block;
+	max-width: 100px;
+	position: absolute;
+}
+.wpmb-item-row {
+	width: 100%;
+	clear: both;
+}
+input.wpmb-item-title {
+	width: 70%;
+	margin: 0 0 0 1%;
+	clear:left;
+}
+input.wpmb-item-price {
+	width: 20%;
+	margin: 0 0 0 1%;
+	clear: right;
+}
+input.wpmb-item-desc {
+	width: 92%;
+	margin-left: 1%;
+	margin-top: 5px;
+}
+img.wpmb-item-add {
+	width: 10px;
+	padding: 5px;
+	background-color: lime;
+	border-radius: 10px;
+	margin-left: 10px;
+	cursor:copy;
+}
+img.wpmb-item-add:hover {
+	background-color: #afefaf;
+}
+img.wpmb-item-remove {
+	width: 10px;
+	background-color: #ff7878;
+	padding: 5px;
+	border-radius: 10px;
+	cursor:no-drop;
+}
+img.wpmb-item-remove:hover {
+	background-color: #f8b2b2;
+}
+.ui-state-highlight { 
+	height: 1.5em; line-height: 1.2em; 
+}
+.wpm-business-menu-option-field input {
+  width: 58px;
+}
+.wpm-business-menu-option-field label {
+  padding-right: 20px;
+}
+/*Instructions*/
+.wpmbm-instruction-row ol li {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.instruction-sub-list i {
+  display: block;
+}
